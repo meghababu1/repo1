@@ -1,0 +1,13 @@
+.demo{
+    background-color: red;
+}
+.demo:hover{
+    background-color: green;
+
+}
+.demo1:nth-child(even){
+    background-color:plum;
+}
+.demo1:hover:nth-child(odd){
+    background-color:  yellow;
+}

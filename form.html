@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="home.html" method="POST">
+    <div>
+    <label for="">FirstName</label>
+    </div>
+    <div>
+    <input type="text" name="fname" required minlength="3" maxlength="10" placeholder="Enter your First Name">
+    </div>
+    <div>
+        <label for="">LastName</label>
+        </div>
+        <div>
+        <input type="text" name="lname" placeholder="Enter your LastName ">
+        </div>
+        <div>
+            <label for="">Gender</label>
+        </div>
+        <div>
+            Male <input type="radio" name="gender" value="male">
+            FeMale <input type="radio" name="gender" value="female">   
+        </div>
+        <div>
+            <label for="">States</label>
+        </div>
+        <div>
+           <select name="state">
+               <option value="Kl">Kerala</option>
+               <option value="kn">Karnataka</option>
+               <option value="tn">Tamilnadu</option>
+           </select>
+        </div>
+    <div>
+        <label for="birthday">Birthday</label>
+    </div>
+    <div>
+        <input type="date" name="birthday" id="birthday">
+    </div>
+    <div>
+        <label for="num">Age</label>
+    </div>
+    <div>
+        <input type="number" name="num" id="num" >
+    </div>
+    <div>
+        <label for="nationality">Nationality</label>
+    </div>
+    <div>
+        <input type="checkbox" name="nationality" id="nationality">
+        <label for="nationality">indian</label>
+        <input type="checkbox" name="nationality" id="nationality">
+        <label for="nationality">Other</label>
+    </div>
+    <div>
+        <label for="email">Email</label>
+    </div>
+    <div>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="pwd">Password</label>
+    </div>
+    <div>
+        <input type="password" name="pwd" id="pwd">
+    </div>
+    <p hidden>This is a hidden Paragraph</p>
+    <div>
+        <label for="file">Select File</label>
+    </div>
+    <div>
+        <input type="file" name="file" id="file">
+    </div>
+<input type="Submit" value="Register">
+</form> 
+</body>
+</html>
